@@ -15,17 +15,19 @@ namespace _22._02._2025
             Console.WriteLine(CanCross(new int[] { 0, 1, 2, 3, 4, 8, 9, 11 }));
 
             //Задание 2
-            int[][] grid1 = new int[][] {
-            new int[] {1, 2},
-            new int[] {3, 4}
-        };
+            int[][] grid1 = new int[][] 
+            {
+                new int[] {1, 2},
+                new int[] {3, 4}
+            };
             Console.WriteLine(SurfaceArea(grid1));
 
-            int[][] grid2 = new int[][] {
-            new int[] {1, 1, 1},
-            new int[] {1, 0, 1},
-            new int[] {1, 1, 1}
-        };
+            int[][] grid2 = new int[][] 
+            {
+                new int[] {1, 1, 1},
+                new int[] {1, 0, 1},
+                new int[] {1, 1, 1}
+            };
             Console.WriteLine(SurfaceArea(grid2));
             Console.ReadKey();
         }
